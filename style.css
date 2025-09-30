@@ -1,0 +1,115 @@
+/*
+Theme Name: SSC 2025 2.0
+Text Domain: SSCxJC
+Version: 1.0
+Description: Dark, Sophisticated, hints of color for joy
+Tags: visual-focus, content-heavy, multipurpose, responsive
+Author: Jaden Chee
+Author URI: https://jadencheeportfolio.my.canva.site/ 
+*/
+
+:root{
+    /* --bg:#0b0f1a; */
+    --bg: black;
+    --raspberry: #ee2b62;
+    --mint: #4cbea3;
+    --grape: #623c97;
+    --gold: #fcb225;
+    --deep-blue: #2a2867;
+    --dark-rasp: #771631;
+    --dark-grape: #311e4c;
+    --dark-mint: #265f52;
+    --dark-gold: #7e5913;
+    --radius: 10px; 
+    --shadow: 0 10px 20px rgba(0,0,0,.35);
+    --max: 1200px;
+    background-color: var(--bg);
+    color:white;
+    padding: 20px;
+}
+
+html,body{
+  margin:0;
+  height:100%;
+  background:var(--bg);
+  color:var(--white);
+  font-family:Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+
+/* Main Navigation Menu */
+/* .nav{
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  align-items: flex-start;
+  justify-content:space-evenly;
+  gap: 2em;
+}
+
+ul.nav li {
+  list-style: none;
+  position: relative;
+}
+
+ul.nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav li a:hover{
+  color: var(--deep-blue);
+  background-color: white;
+  border-radius: var(--radius);
+}
+
+.sub-menu {
+  display: none;
+
+  border-radius: var(--radius);
+  top: 100%;
+  left: 0;
+}
+
+.sub-menu li{
+  background-color: black;
+  border-radius: var(--radius);
+}
+
+.nav li:hover .sub-menu{
+  display: block;
+  position: relative;
+} */
+
+/* responsive menu collapse to hamburger menu */
+/* still need this */
+
+h1.wp-block-site-tagline{
+  margin:.25rem 0 0;
+  font-size:clamp(1.6rem,3.2vw,2.4rem);
+  line-height:1.1;
+  font-style: italic;
+}
+
+h1{
+  margin:.25rem 0 0;
+  font-size:clamp(1.6rem,3.2vw,2.4rem);
+  line-height:1.1;
+  font-style: italic;
+}
+
+.eyebrow{
+  font-weight:800;
+  color: var(--gold);
+  letter-spacing:.12em;
+  text-transform:uppercase;
+  font-size:.8rem;
+}
+
+.logo-img {
+    border-radius: 0px;
+}
