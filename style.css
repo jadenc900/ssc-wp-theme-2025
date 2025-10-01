@@ -113,3 +113,7 @@ h1{
 .logo-img {
     border-radius: 0px;
 }
+
+.image{
+  border-radius: 6px;
+}
