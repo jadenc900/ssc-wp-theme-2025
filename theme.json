@@ -476,6 +476,13 @@
                 "border": {
                     "width": "1px"
                 }
+            }, 
+            "core/post-title":{
+                "spacing": {
+                    "padding": {
+                        "left": "32px"
+                    }
+                }
             }
         }
     },
@@ -484,6 +491,16 @@
             "name": "header", 
             "title": "My Header", 
             "area": "header"
+        }, 
+        {
+            "name": "footer", 
+            "title": "My Footer", 
+            "area": "footer"
+        }, 
+        {
+            "name": "faculty-bio", 
+            "title": "Faculty Bio Page", 
+            "area": "content"
         }
     ]
 }
