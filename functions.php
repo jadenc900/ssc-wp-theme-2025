@@ -54,5 +54,15 @@ add_action('wp_enqueue_scripts', 'ssc_register_scripts');
 
 // kinda cray but: disable all default block patterns
 remove_theme_support('core-block-patterns');
+
+add_action( 'init', 'ssc2025_register_pattern_categories' );
+
+function ssc2025_register_pattern_categories() {
+	register_block_pattern_category( 'ssc2025/page-layouts', array( 
+		'label'       => __( 'Page Layouts', 'ssc2025' ),
+		'description' => __( 'Custom page layouts for South Shore Conservatory', 'ssc2025' )
+	) );
+}
+
 ?>
 
