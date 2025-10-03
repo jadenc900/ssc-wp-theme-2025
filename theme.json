@@ -496,11 +496,6 @@
             "name": "footer", 
             "title": "My Footer", 
             "area": "footer"
-        }, 
-        {
-            "name": "faculty-bio", 
-            "title": "Faculty Bio Page", 
-            "area": "content"
         }
     ]
 }
