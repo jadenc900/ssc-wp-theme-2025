@@ -477,11 +477,14 @@
                     "width": "1px"
                 }
             }, 
-            "core/post-title":{
-                "spacing": {
-                    "padding": {
-                        "left": "32px"
-                    }
+            "core/image":{
+                "border": {
+                    "radius": "6px"
+                }
+            }, 
+            "core/post-featured-image":{
+                "border": {
+                    "radius": "6px"
                 }
             }
         }
